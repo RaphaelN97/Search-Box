@@ -13,7 +13,6 @@ document.getElementById('searchBox').addEventListener('keydown', function(event)
                               Whether it's a big dog or a small dog, they all have an important place in people's lives. 
                               Dogs are often trained to be working dogs, helping in many tasks, and they are commonly referred to as man's best friend.`;
   
-        // Highlight only the word "dog"
         const highlightedText = dogParagraph.replace(/(dog)/gi, '<span class="highlight">$1</span>');
   
         dogText.innerHTML = highlightedText;
