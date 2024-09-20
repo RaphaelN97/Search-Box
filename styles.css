@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #searchBox {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #dogText {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    background-color: yellow;
+  }
+  
